@@ -1,0 +1,25 @@
+class Test1
+{
+	public static void main(String[] args)
+	{
+		int a= 20;
+		int b= a-- - --a;
+		int c= a--;
+		int d= a>>2;
+		int e= a&b;
+		System.out.println("A: " +a);
+		System.out.println("B: " +b);
+		System.out.println("C: " +c);
+		System.out.println("D: " +d);
+		System.out.println("E: " +e);
+		}
+	
+}
+
+
+
+Output: A:17
+        B:2
+        C:18
+        D:4
+        E:0
